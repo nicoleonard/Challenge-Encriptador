@@ -1,3 +1,22 @@
+.body{
+    background-color: #F3F5FC;
+}
+
+.main{
+    background-color: #F3F5FC;
+}
+
 #Logo{
     vertical-align: top;
+}
+
+.display1{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
 }
