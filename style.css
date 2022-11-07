@@ -1,0 +1,13 @@
+body{
+    background-color: #E5E5E5;
+}
+
+header {
+    padding: 20px 0;
+}
+
+.contenedor{
+    width: auto;
+    position: relative;
+    margin: 0 auto;
+}
