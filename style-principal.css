@@ -1,22 +1,13 @@
-.body{
-    background-color: #F3F5FC;
+body {
+    background-color: #e5e5e5;
 }
 
-.main{
-    background-color: #F3F5FC;
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    background-color: #e5e5e5;
 }
 
-#Logo{
-    vertical-align: top;
-}
 
-.display1{
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border-radius: 10px;
-}
+
