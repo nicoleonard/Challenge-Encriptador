@@ -1,3 +1,7 @@
+section{
+    display: flex;
+}
+
 body {
     background-color: #e5e5e5;
 }
@@ -9,5 +13,31 @@ main {
     background-color: #e5e5e5;
 }
 
-
-
+.input-texto{
+    margin-top: 90px;
+}
+.mensaje{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-color: #ffffff;
+    background-image: url("Imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 205px;
+}
+.encriptar{
+    background-color: darkblue;
+    color: white;
+}
+.desencriptar{
+    margin-left: 30px;
+}
+.informacion{
+    font-size: 15px;
+}
