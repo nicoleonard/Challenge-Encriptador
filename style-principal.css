@@ -1,5 +1,5 @@
-section{
-    display: flex;
+header{
+    padding: 2%;
 }
 
 body {
@@ -8,18 +8,29 @@ body {
 
 main {
     display: flex;
-    margin-left: 80px;
-    margin-bottom: 50px;
+
     background-color: #e5e5e5;
 }
 
+section{
+    display: flex;
+    width: fit-content;
+}
+
+div{
+    vertical-align: top;
+    width: fit-content;
+
+}
+
 .input-texto{
-    margin-top: 90px;
+    vertical-align: top;
+    position: relative;
+    
 }
 .mensaje{
     position: relative;
-    margin-top: 20px;
-    margin-left: 90px;
+    vertical-align: top;
     background-color: #ffffff;
     background-image: url("Imagenes/Muñeco.png");
     background-repeat: no-repeat;
@@ -27,9 +38,14 @@ main {
     background-size: contain;
 }
 .botones{
-    display: flex;
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
     flex-direction: row;
     margin-top: 205px;
+}
+div.botones{
+    vertical-align: bottom;
 }
 .encriptar{
     background-color: darkblue;
